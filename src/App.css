@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.decorations{
+  text-decoration: none;
+  font-weight: bold;
+  color: #c8c8c8;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links_datarequirements{
+  flex-direction: row;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links_us{
+  margin: 10px;
+  padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonUs{
+  margin: 10px;
+  padding: 10px;
+}
+.container_nav_bar{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
+
+.homeWiki{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+
+}
+.titleInit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 50px;
+  background: #dedede;
+  box-shadow:  20px 20px 60px #bdbdbd,
+             -20px -20px 60px #ffffff;
+}
+p{
+  margin: 30px 20px 20px 20px ;
+}
+
+.description{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 46px;
+  background: linear-gradient(145deg, #eeeeee, #c8c8c8);
+  box-shadow:  37px 37px 39px #bfbfbf,
+             -37px -37px 39px #fdfdfd;
+  cursor: pointer;
+}
+/* Contac*/
+.contac-team{
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(187, 187, 187);
+  justify-content: center;
+  align-items: center;
+}
+.socialnet{
+  text-decoration: none;
+}
+.socialcolor{
+  color: #636363;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.colornet{
+  color: #3b5998;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* About*/
+
+.card-sect{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 196, 196);
+  overflow: hidden;
+  border-radius: 25px;
 }
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 300px;
+  background: linear-gradient(to right, #403b4a, #e7e9bb);
+  padding: 36px 36px 36px 36px;
+  border-radius: 25px;
+}
+
+
