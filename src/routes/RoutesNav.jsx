@@ -7,6 +7,8 @@ import RequerimientosDeSoftware from '../components/datarequirements/Requerimien
 import FundamentosDelRequerimientoDeSoftware from '../components/datarequirements/FundamentosDelRequerimientoDeSoftware';
 import ProcesoDeRequerimientos from '../components/datarequirements/ProcesoDeRequerimientos';
 import Elicitacion from '../components/datarequirements/Elicitacion';
+import AnalisisDeRequerimientos from '../components/datarequirements/AnalisisDeRequerimientos';
+import ValidacionDeRequerimientos from '../components/datarequirements/ValidacionDeRequerimientos'
 
 const RoutesNav = () => {
     return (
@@ -14,8 +16,8 @@ const RoutesNav = () => {
         <Routes>
             <Route path="/software_requirements_tools" element= {<Elicitacion/>}/>
             <Route path="/practical_consideration" element= {<Elicitacion/>}/>
-            <Route path="/requirements_validation" element= {<Elicitacion/>}/>
-            <Route path="/requirements_specification" element= {<Elicitacion/>}/>
+            <Route path="/requirements_validation" element= {<ValidacionDeRequerimientos/>}/>
+            <Route path="/requirements_specification" element= {<AnalisisDeRequerimientos/>}/>
             <Route path="/requirements_analysis" element= {<Elicitacion/>}/>
             <Route path="/elicitation" element= {<Elicitacion/>}/>
             <Route path="/software_requirements_process" element= {<ProcesoDeRequerimientos/>}/>
