@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFacebook} from "@fortawesome/free-brands-svg-icons"
+import LinaHernandez from "./images/LinaHernandez.jpeg"
 
 const Contact = () => {
     return (
@@ -34,6 +35,16 @@ const Contact = () => {
                    <li className="socialnet">
                        <FontAwesomeIcon icon={faFacebook} className="colornet"/>
                        <a href="https://www.facebook.com/josednu" className="socialnet socialcolor">Jesus Diaz</a>
+                   </li>
+               </ul>
+               </div>
+
+               <div>
+               <Avatar alt="Lina Hernandez" src={LinaHernandez} />
+               <ul className="socialnet">
+                   <li className="socialnet">
+                       <FontAwesomeIcon icon={faFacebook} className="colornet"/>
+                       <a href="https://www.facebook.com/shanymalu.hernandezganan" className="socialnet socialcolor">Lina Hernandez</a>
                    </li>
                </ul>
                </div>
