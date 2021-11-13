@@ -28,17 +28,17 @@ const NavBar = () => {
                         
             </div>
             <div className="links_datarequirements">
-                <Stack direction="row" flexWrap="wrap" spacing={3} padding={2}>
+                <Stack direction="row" flexWrap="wrap" spacing={1} padding={1}>
                     <Button variant="outlined">
                       <Link to="/software_requirements" className="decorations">
                         Requerimientos de software
                       </Link>
                     </Button>
-                    <Button variant="outlined">
+                    {/* <Button variant="outlined">
                         <Link to="/software_requirements_fundamentals" className="decorations">
                             Fundamentos del requerimiento de software
                         </Link>
-                    </Button>
+                    </Button> */}
                     <Button variant="outlined">
                         <Link to="/software_requirements_process" className="decorations">
                             Proceso de requerimientos
@@ -59,7 +59,7 @@ const NavBar = () => {
                             Especificación de requerimientos
                         </Link>
                     </Button>
-                    <Button variant="outlined">
+                    {/* <Button variant="outlined">
                         <Link to="/requirements_validation" className="decorations">
                             Validación de requerimientos
                         </Link>
@@ -73,7 +73,7 @@ const NavBar = () => {
                         <Link to="/software_requirements_tools" className="decorations">
                             Herramientas del sistema
                         </Link>        
-                    </Button>
+                    </Button> */}
                 </Stack>
                  
                 
