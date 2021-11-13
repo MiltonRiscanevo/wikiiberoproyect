@@ -46,7 +46,7 @@ const NavBar = () => {
                     </Button>
                     <Button variant="outlined">
                         <Link to="/elicitation" className="decorations">
-                            Elicitacion
+                            La captura
                         </Link>
                     </Button>
                     <Button variant="outlined">

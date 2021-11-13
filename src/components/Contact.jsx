@@ -15,7 +15,7 @@ const Contact = () => {
                <ul className="socialnet">
                    <li className="socialnet">
                        <FontAwesomeIcon icon={faFacebook} className="colornet"/>
-                       <a href="https://www.facebook.com/inocencio1986" className="socialnet socialcolor">milton</a>
+                       <a href="https://www.facebook.com/inocencio1986" className="socialnet socialcolor">Milton Riscanevo</a>
                    </li>
                </ul>
                </div>
@@ -58,9 +58,15 @@ const Contact = () => {
                    </li>
                </ul>
                </div>
-               
-               <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-               <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+               <div>
+               <Avatar alt="Moises Mina" src="https://scontent.fbog10-1.fna.fbcdn.net/v/t39.30808-6/255147221_1033238864136568_8863624592658270317_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHNxQoCSgXBLbKy-iefSBoG21NJGoXYgRfbU0kahdiBF77Ux6WuBrgPrxhEwiWdDvvNw003h5OVI3gPIGo8LE1W&_nc_ohc=Z5MJK2a_DKgAX_SKqce&_nc_ht=scontent.fbog10-1.fna&oh=b38a4ff7685b090b9ca223ca4cb3f759&oe=6193325E" />
+               <ul className="socialnet">
+                   <li className="socialnet">
+                       <FontAwesomeIcon icon={faFacebook} className="colornet"/>
+                       <a href="https://www.facebook.com/moises.minaperez.92" className="socialnet socialcolor">Moises Mina</a>
+                   </li>
+               </ul>
+               </div>
             </Stack>
         </div>
     )
