@@ -22,6 +22,8 @@ const ProcesoDeRequerimientos = () => {
            <br />
            <br /> <strong>Calidad y mejora de los procesos:</strong> <br />  Este teme está relacionado con la evaluación de los procesos de requisitos. El propósito de este es de jugar un papel clave en los procesos de requerimientos en términos de costo, oportunidades de software y de la satisfacción de del cliente con el producto. Este ayuda mucho al proceso de requerimientos con estándares de calidad y modelos de mejora con los procesos del software y sistemas, la mejora del proceso está relacionada con la calidad del software KA.</p>    
 
+            <p>Referencia bibliográfica (Bourque, 2004)</p>
+
         </div>
     )
 }

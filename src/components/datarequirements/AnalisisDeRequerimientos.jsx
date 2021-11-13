@@ -28,6 +28,15 @@ const AnalisisDeRequerimientos = () => {
                <br /> •	Terminar la aceptación de criterios con el cliente y otros accionistas.
 
             </p>
+
+            <h3>REFERENCIAS.</h3>
+            <p>
+            Ralph, P. and Wand, Y. (2009). A proposal for a formal definition of the design concept. In Lyytinen, K., Loucopoulos, P., Mylopoulos, J., and Robinson, W., editors, Design Requirements Workshop (LNBIP 14), pp. 103–136. Springer-Verlag, p. 109 doi 10.1007/978-3-540-92966-6_6.
+            <br />
+            <br />
+            Freeman, Peter; David Hart (2004). «A Science of design for software-intensive systems». Communications of the ACM 47 (8): 19–21 [20]. doi:10.1145/1012037.1012054.
+
+            </p>
         </div>
     )
 }

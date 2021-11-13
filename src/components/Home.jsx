@@ -19,15 +19,11 @@ const Home = () => {
           <p className="description">
               Aquí encontraremos en la barra de navegación los siguientes datos informativos: <br />
                 <br /> •	Que son los requerimientos de software
-                <br /> •	Que es el fundamento del requerimiento de software
                 <br /> •	Que es el proceso de requerimientos
-                <br /> •	De que se trata la Elicitacion
+                <br /> •	De que se trata la Captura
                 <br /> •	Que es el Análisis de requerimientos
                 <br /> •	Que es la especificación de requerimientos
-                <br /> •	Que es la validación de requerimientos
-                <br /> •	Que son las consideraciones practicas
-                <br /> •	Herramientas del sistema
-
+                
           </p>
           
         </div>
